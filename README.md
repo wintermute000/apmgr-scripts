@@ -29,6 +29,10 @@ from dotenv import load_dotenv
 
 ### ENVIRONMENT VARIABLES
 FMGURL="https://<your FMG>/jsonrpc" 
+  
 FMGUSERNAME=<your FMG API user with JSON API permissions>
+  
 FMGPASSWORD=<your FMG API user password>
+  
 FMGWLC=<your FortiGate>
+  
