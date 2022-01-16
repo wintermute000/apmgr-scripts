@@ -2,6 +2,7 @@
 Some quick scripts to add or amend APs from FortiManager AP Manager
 
 WARNING: Never use device manager or device manager CLI scripts to manipulate APs in FortiManager, only ever use AP Manager
+
 These scripts utilise the same API calls as the AP Manager Web UI
 
 ### DEPENDENCIES
