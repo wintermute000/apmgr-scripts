@@ -28,11 +28,11 @@ from dotenv import load_dotenv
 - Run edit-aps.py
 
 ### ENVIRONMENT VARIABLES
-FMGURL="https://<your FMG>/jsonrpc" 
+FMGURL="https:/'your FMG'/jsonrpc" 
   
-FMGUSERNAME=<your FMG API user with JSON API permissions>
+FMGUSERNAME='your FMG API user with JSON API permissions'
   
-FMGPASSWORD=<your FMG API user password>
+FMGPASSWORD='your FMG API user password'
   
-FMGWLC=<your FortiGate>
+FMGWLC='your FortiGate'
   
