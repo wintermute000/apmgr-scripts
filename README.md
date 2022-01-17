@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 - Define environmental variables (URL, api username, api password, FortiGate/WLC) in apscript.env
 - Define APs in editaplist.json
 - From quick testing, most entries can be removed if not relevant / used (i.e. left on defaults or not being altered), full schema is provided as example
-- Run edit-aps.py
+- Run edit-aps.py - note this applies an over-ride to the AP profile
 - Install the change (this script does not perform device installation)
 
 ### ENVIRONMENT VARIABLES
