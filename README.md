@@ -20,12 +20,14 @@ from dotenv import load_dotenv
 - Define environmental variables (URL, api username, api password, FortiGate/WLC) in apscript.env
 - Define APs in addaplist.json
 - Run add-aps-to-fmg.py
+- Install the change (this script does not perform device installation)
 
 ### EDIT APs
 - Define environmental variables (URL, api username, api password, FortiGate/WLC) in apscript.env
 - Define APs in editaplist.json
 - From quick testing, most entries can be removed if not relevant / used (i.e. left on defaults or not being altered), full schema is provided as example
 - Run edit-aps.py
+- Install the change (this script does not perform device installation)
 
 ### ENVIRONMENT VARIABLES
 FMGURL="https:/'your FMG'/jsonrpc" 
